@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goku Interactive 3D Avatar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/styles.css">
+    <!-- Removed Three JS module map -->
+</head>
+<body>
+    <canvas id="goku-canvas"></canvas>
+
+    <div class="interactive-ui">
+        <textarea id="user-input" style="display: none;"></textarea>
+        <button id="send-btn" style="display: none;"></button>
+        <button id="clear-chat" style="display: none;"></button>
+
+        <div id="subtitle-display" class="subtitle-display">Ready to train!</div>
+
+        <button id="mic-btn" class="floating-mic" title="Talk to Goku">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+        </button>
+    </div>
+    
+    <script src="/static/app.js?v=8"></script>
+    <script src="/static/goku_animation.js?v=1"></script>
+</body>
+</html>
