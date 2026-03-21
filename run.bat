@@ -2,7 +2,7 @@
 setlocal
 
 :: Set the API key permanently right here for 1-click launch
-set GEMINI_API_KEY=AIzaSyB90I40DCS4aujsRiifVG_jJwNoQ4M8f6w
+set GEMINI_API_KEY=" enter your key "
 
 echo ====================================
 echo Starting the Goku Interactive Avatar
